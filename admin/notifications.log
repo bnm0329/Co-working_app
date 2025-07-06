@@ -1,0 +1,323 @@
+2025-07-02 16:50:53,420 - INFO - CoVilla Notification Service started
+2025-07-03 00:52:35,829 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 00:53:40,073 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 00:54:44,139 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 00:55:48,231 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 00:56:52,289 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 00:57:56,353 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 00:59:00,457 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:00:04,524 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:01:08,584 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:02:12,643 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:03:16,728 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:04:20,800 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:05:24,866 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:06:28,931 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:07:32,992 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:08:37,107 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:09:41,194 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:10:45,237 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:11:49,250 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:12:53,299 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:13:57,323 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:15:01,452 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:16:05,496 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:17:09,610 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:18:13,702 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:19:17,758 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:20:21,856 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:21:25,956 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:22:30,040 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:23:34,112 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:24:38,188 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:25:42,211 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:26:46,276 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:27:50,343 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:28:54,476 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:29:58,542 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:31:02,603 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:32:06,668 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:33:10,712 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:34:14,756 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:35:18,840 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:36:22,924 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:37:27,012 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:38:31,095 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:39:35,141 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:40:39,209 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:41:43,249 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:42:47,310 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:43:51,360 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:44:55,414 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:45:59,474 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:47:03,511 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:48:07,560 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:49:11,632 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:50:15,705 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:51:19,754 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:52:23,783 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:53:27,850 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:54:31,954 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:55:36,001 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:56:40,084 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:57:44,123 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:58:48,208 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 01:59:52,301 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:00:55,306 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:01:59,364 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:03:03,435 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:04:07,494 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:05:11,564 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:06:15,649 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:07:19,738 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:08:23,805 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:09:27,871 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:10:31,955 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:11:36,027 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:12:40,112 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:13:44,189 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:14:48,244 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:15:52,271 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:16:56,339 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:18:00,419 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:19:04,480 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:20:08,564 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:21:12,620 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:22:16,694 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:23:20,771 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:24:24,842 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:25:28,955 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:26:33,131 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:27:37,224 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:28:41,276 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:29:45,361 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:30:49,419 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:31:53,460 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:32:57,527 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:34:01,601 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:35:05,686 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:36:09,774 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:37:13,855 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:38:17,943 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:39:21,988 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:40:26,034 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:41:30,114 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:42:34,201 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:43:38,260 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:44:42,317 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:45:46,430 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:46:50,546 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:47:54,645 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:48:58,756 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:50:02,821 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:51:06,875 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:52:10,957 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 02:53:15,069 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:17:38,629 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:18:42,701 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:19:46,761 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:20:50,841 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:21:54,929 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:22:59,005 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:24:03,072 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:25:07,133 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:26:11,196 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:27:15,256 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:28:19,340 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:29:23,404 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:30:27,483 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:31:31,569 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:32:35,631 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:33:39,696 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:34:43,754 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:35:47,836 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:36:51,928 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:37:55,994 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:39:00,098 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:40:04,161 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:41:08,260 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:42:12,324 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:43:16,397 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:44:20,483 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:45:24,560 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:46:28,621 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:47:32,706 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:48:36,796 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:49:40,866 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:50:44,953 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:51:49,058 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:52:53,145 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:53:57,233 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:55:01,306 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:56:05,401 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:57:09,475 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:58:13,562 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 03:59:17,638 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 04:00:21,727 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 04:01:25,792 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 04:02:29,879 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 04:03:33,945 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 04:04:38,021 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 04:05:42,085 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 04:06:46,173 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 04:07:50,217 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 04:08:54,278 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 04:09:58,348 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 04:11:02,417 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 04:12:06,487 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 04:13:10,561 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 04:14:14,648 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 04:15:18,715 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 04:16:22,799 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 13:19:38,936 - ERROR - Database error: (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+2025-07-03 15:02:39,698 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:03:39,707 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:04:39,713 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:05:39,717 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:06:39,722 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:07:39,725 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:07:39,726 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:08:39,729 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:08:39,730 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:09:39,734 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:09:39,734 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:10:39,739 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:10:39,740 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:11:39,757 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:11:39,758 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:12:39,768 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:12:39,768 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:13:39,774 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:13:39,774 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:14:39,780 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:14:39,781 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:15:39,790 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:15:39,791 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:16:39,799 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:16:39,800 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:17:39,806 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:17:39,806 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:18:39,815 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:18:39,815 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:19:39,819 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:19:39,820 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:20:39,824 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:20:39,825 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:21:39,830 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:21:39,831 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:22:39,835 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:22:39,836 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:23:39,851 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:23:39,852 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:24:39,860 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:24:39,860 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:25:39,865 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:25:39,865 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:26:39,870 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:27:39,875 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:28:39,882 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:29:39,889 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:30:39,894 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:30:39,894 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:31:39,906 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:31:39,906 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:32:39,920 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:32:39,920 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:33:39,927 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:33:39,928 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:34:39,937 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:34:39,938 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:35:39,956 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:35:39,957 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:36:39,965 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:36:39,966 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:37:39,976 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:37:39,976 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:38:39,986 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:38:39,987 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:39:39,992 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:39:39,992 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:40:40,001 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:51:40,080 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:52:40,089 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:53:40,095 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:54:40,103 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:55:40,112 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:56:40,118 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:57:40,127 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:58:40,132 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 15:59:40,139 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:00:40,144 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:01:40,151 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:02:40,160 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:03:40,170 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:04:40,175 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:05:40,180 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:06:40,187 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:07:40,194 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:08:40,200 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:09:40,205 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:10:40,214 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:11:40,220 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:12:40,244 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:13:40,248 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:14:40,253 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:15:40,262 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:16:40,269 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:17:40,278 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:18:40,283 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:19:40,291 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:20:40,301 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:21:40,312 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:22:40,319 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:23:40,323 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:24:40,327 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:25:40,333 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:26:40,337 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:27:40,341 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:28:40,348 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:29:40,354 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:30:40,359 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:31:40,364 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:32:40,394 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:33:40,403 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:34:40,412 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:35:40,422 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:36:40,428 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:37:40,436 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:38:40,440 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:39:40,448 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:40:40,456 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:41:40,465 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:42:40,474 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 16:43:40,483 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 21:12:06,351 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 21:13:06,358 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-03 21:14:06,366 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-04 16:46:47,652 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-04 17:51:48,196 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-04 17:51:48,203 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 17:52:48,208 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-04 17:52:48,210 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 17:53:48,217 - ERROR - Template error: [Errno 2] No such file or directory: 'welcome_email.html'
+2025-07-04 17:53:48,222 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 17:54:48,226 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 17:55:48,237 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 17:56:48,242 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 17:57:48,255 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 17:58:48,267 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 17:59:48,273 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 18:00:48,288 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 18:01:48,300 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 18:02:48,310 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 18:03:48,321 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 18:04:48,328 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 18:05:48,338 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 18:06:48,349 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 18:07:48,353 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 18:08:48,362 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 18:09:48,368 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 18:10:48,377 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 18:11:48,388 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 18:12:48,397 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'
+2025-07-04 18:13:48,401 - ERROR - Template error: [Errno 2] No such file or directory: 'coupon_email.html'

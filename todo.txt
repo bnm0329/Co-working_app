@@ -1,0 +1,13 @@
+check those : !
+1 : move all css from php files to css files 
+2 ; move all js to js files 
+3 : move all sql requets to controllers 
+4 : move all funtions to modeles folder
+5 : cron script when user at seat selection step cron script generate 
+two coupons from firewall and dump them into the database
+notes : 
+For Web Hosting (Online Server):
+If this solution is hosted on a remote (non-localhost) server, you must use a version without the firewall features,For Localhost 
+(Local Server):
+If the solution is running on a localhost/server, you need to implement a method to automatically start the Python scripts whenever 
+the server restarts.
