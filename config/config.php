@@ -41,24 +41,24 @@ if (!$licenseBypass) {
 }
 
 // ✅ Telegram Bot Credentials
-$telegramBotToken = "7378555939:AAFaFnL_TOWd1PleriOGif7BDbKZHP8McXE";
-$telegramChatId   = "-1002430713853";
+$telegramBotToken = "";
+$telegramChatId   = "";
 
 // ✅ MySQL Database Connection
-$servername = "localhost";
-$username   = "root";
+$servername = "";
+$username   = "";
 $password   = "";
-$dbname     = "bd1s";
+$dbname     = "";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("❌ Échec de connexion à la base de données: " . $conn->connect_error);
 }
 
-$smtp_host = "smtp.gmail.com";           // Your SMTP server (e.g. smtp.gmail.com)
-$smtp_port = 587;                          // Port (587 for TLS, 465 for SSL)
-$smtp_username = "covilla2025@gmail.com";         // SMTP login
-$smtp_password = "sfzp xoyb kfxu sjnr";           // SMTP password or app password
-$smtp_from_email = "covilla2025@gmail.com";       // Sender email
-$smtp_from_name = "CoVilla"; 
+$smtp_host = "";           // Your SMTP server (e.g. smtp.gmail.com)
+$smtp_port = ;                          // Port (587 for TLS, 465 for SSL)
+$smtp_username = "";         // SMTP login
+$smtp_password = "";           // SMTP password or app password
+$smtp_from_email = "";       // Sender email
+$smtp_from_name = ""; 
 ?>
