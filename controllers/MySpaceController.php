@@ -7,9 +7,9 @@ $error = '';
 $requestMessage = '';
 $activeSeatNumber = 'N/A';
 $affiliate = [];
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['username'])) {
     $username = sanitizeInput($_POST['username']);
+
     $stmt = $conn->prepare("SELECT * FROM users WHERE username = ? OR email = ?");
     $stmt->bind_param("ss", $username, $username);
     $stmt->execute();
@@ -18,7 +18,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['username'])) {
     if ($result && $result->num_rows > 0) {
         $user = $result->fetch_assoc();
         $user_id = $user['user_id'];
+        $name = $user['full_name'] ?? $user['username'];
 
+        // Optional: check session
         $activeQuery = "
             SELECT s.*, st.seat_number 
             FROM sessions s 
@@ -29,23 +31,33 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['username'])) {
         $sessionStmt->bind_param("i", $user_id);
         $sessionStmt->execute();
         $activeResult = $sessionStmt->get_result();
+        $seatMsg = "";
         if ($activeResult && $activeResult->num_rows > 0) {
             $activeSession = $activeResult->fetch_assoc();
-            $activeSeatNumber = $activeSession['seat_number'];
+            $seatMsg = "Vous êtes déjà connecté à la place <strong>{$activeSession['seat_number']}</strong>.";
         }
 
+        // Optional: check affiliate
         $affQuery = "SELECT * FROM affiliate WHERE owner_user_id = ?";
         $affStmt = $conn->prepare($affQuery);
         $affStmt->bind_param("i", $user_id);
         $affStmt->execute();
         $affResult = $affStmt->get_result();
+        $affMsg = "";
         if ($affResult && $affResult->num_rows > 0) {
             $affiliate = $affResult->fetch_assoc();
+            $affMsg = "<br>Vous êtes affilié à: <strong>{$affiliate['affiliate_name']}</strong>";
         }
+
+        echo "✅ Bienvenue, <strong>$name</strong>!<br>$seatMsg$affMsg";
     } else {
-        $error = "Utilisateur introuvable. Veuillez vérifier le nom d'utilisateur ou l'adresse e-mail.";
+        echo "<span style='color:red;'>❌ Utilisateur introuvable. Veuillez vérifier le nom d'utilisateur ou l'e-mail.</span>";
     }
+} else {
+    echo "<span style='color:red;'>Requête invalide.</span>";
 }
+
+
 
 $limit = 5;
 $page = isset($_GET['page']) ? max(1, intval($_GET['page'])) : 1;

@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (alertBox) {
         setTimeout(() => {
             alertBox.style.display = 'none';
-        }, 6000);
+        }, 10000);
     }
 });
 </script>
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <li><strong>Espaces & Places :</strong> Choisissez une place disponible (🟢) et respectez le calme ambiant.</li>
             <li><strong>Connexion Internet :</strong> Utilisez votre coupon pour accéder au WiFi sécurisé. <em>(Un coupon = un appareil)</em></li>
             <li><strong>Services & Assistance :</strong> Demandez des services via l’espace client : 
-                <strong><br>10.0.0.192/co-working/espace_client</strong>
+                <strong><br>https://Covilla.tn/espace_client</strong>
             </li>
         </ul>
 
@@ -143,5 +143,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 })();
 </script>
+
+    
 </body>
 </html>

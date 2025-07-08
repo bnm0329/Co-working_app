@@ -34,23 +34,46 @@
 <div class="container">
     <h1>Bienvenue à Co-villa 🚀</h1>
 
-    <?php if (isset($_SESSION['error'])): ?>
-        <div class="message" id="errorMessage"><?= htmlspecialchars($_SESSION['error']) ?></div>
-        <?php unset($_SESSION['error']); ?>
-    <?php endif; ?>
+        <div id="formResponse" style="margin-top: 10px;"></div>
+
 
     <div id="returningUserForm" class="form-container">
-        <h2>Ouvrir mon espace</h2>
-        <form method="post" action="">
-            <label>Entrez votre nom d'utilisateur :</label>
-            <input type="text" placeholder="prénom-Nom-Type d'utilisateur N°" name="username" required>
-            <input type="submit" value="Connexion">
-        </form>
-    </div>
+    <h2>Ouvrir mon espace</h2>
+    <form id="loginForm">
+        <label>Entrez votre nom d'utilisateur :</label>
+        <input type="text" placeholder="prénom-Nom-Type d'utilisateur N°" name="username" required>
+        <input type="submit" value="Connexion">
+    </form>
+</div>
+
 
     <p class="guidance">
         <strong>Mon espace :</strong> Accédez à votre espace personnel pour consulter votre historique d'utilisation, contacter notre administrateur et explorer les services que nous proposons.
     </p>
 </div>
+<script>
+document.getElementById("loginForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const form = e.target;
+    const formData = new FormData(form);
+    const responseBox = document.getElementById("formResponse");
+
+    responseBox.innerHTML = "";
+
+    fetch("../controllers/MySpaceController.php", {
+        method: "POST",
+        body: formData
+    })
+    .then(res => res.text())
+    .then(data => {
+        responseBox.innerHTML = data;
+    })
+    .catch(err => {
+        responseBox.innerHTML = "Erreur de connexion au serveur.";
+    });
+});
+</script>
+
 </body>
 </html>
