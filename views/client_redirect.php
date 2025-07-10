@@ -8,6 +8,6 @@
     <form id="redirectForm" action="my_space.php" method="POST">
         <input type="hidden" name="username" value="<?= htmlspecialchars($_POST['username']) ?>">
     </form>
-    <script>document.getElementById('redirectForm').submit();</script>
+    <script src="../views/assets/js/client_redirect.js"></script>
 </body>
 </html>

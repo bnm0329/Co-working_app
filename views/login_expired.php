@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.75">
     <link rel="stylesheet" href="./views/assets/css/main.css">
     <script>
-        setTimeout(() => { window.location.href = "dashboard.php"; }, 10000);
+        setTimeout(() => { window.location.href = "dashboard"; }, 10000);
     </script>
 </head>
 <body>

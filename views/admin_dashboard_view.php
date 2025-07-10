@@ -2,34 +2,33 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Admin Dashboard</title>
+    <title>Tableau de bord administrateur</title>
     <link rel="stylesheet" href="../views/assets/css/styles.css">
     
 </head>
 <body>
     <div class="container">
-        <h1>Admin Dashboard</h1>
+        <h1>Tableau de bord administrateur</h1>
         <div class="menu">
-            <a href="manage_users.php">Manage Users</a>
-            <a href="manage_seats.php">Manage Seats</a>
-            <a href="manage_sessions.php">Session Management</a>
-            <a href="Subscribers.php">Subscribers Management</a> 
-            <a href="message_notice.php">Manage Messages</a>
-            <a href="service.php">Service Management</a>
-            <a href="statistique.php">statistique</a>
-            <a href="pricing.php">prices</a>
-
+            <a href="manage_users">Gérer les utilisateurs</a>
+            <a href="manage_seats">Gérer les sièges</a>
+            <a href="manage_sessions">Gestion des sessions</a>
+            <a href="subscribers">Gestion des abonnés</a> 
+            <a href="message_notice">Gérer les messages</a>
+            <a href="service">Gestion des services</a>
+            <a href="statistique">Statistiques</a>
+            <a href="pricing">Tarifs</a>
         </div>
 
-        <h2>Overview</h2>
+        <h2>Vue d'ensemble</h2>
         <div class="stats">
-            <p>Total Users: <span><?= $stats['users'] ?></span></p>
-            <p>Available Seats: <span><?= $stats['availableSeats'] ?></span></p>
-            <p>Occupied Seats: <span><?= $stats['occupiedSeats'] ?></span></p>
-            <p>Active Sessions: <span><?= $stats['activeSessions'] ?></span></p>
-            <p>Expired Subscriptions: <span class="expired"><?= $stats['expiredSubscriptions'] ?></span></p>
-            <p>Subscriptions (Near Expiry): <span class="progress"><?= $stats['nearExpiry'] ?></span></p>
-            <p>Waiting Services: <span><?= $stats['pendingServices'] ?></span></p>
+            <p>Utilisateurs totaux : <span><?= $stats['users'] ?></span></p>
+            <p>Sièges disponibles : <span><?= $stats['availableSeats'] ?></span></p>
+            <p>Sièges occupés : <span><?= $stats['occupiedSeats'] ?></span></p>
+            <p>Sessions actives : <span><?= $stats['activeSessions'] ?></span></p>
+            <p>Abonnements expirés : <span class="expired"><?= $stats['expiredSubscriptions'] ?></span></p>
+            <p>Abonnements (proche expiration) : <span class="progress"><?= $stats['nearExpiry'] ?></span></p>
+            <p>Services en attente : <span><?= $stats['pendingServices'] ?></span></p>
         </div>
     </div>
 </body>

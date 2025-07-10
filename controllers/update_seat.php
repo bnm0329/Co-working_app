@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // 1. Get the current seat_id of this session
     $stmt = mysqli_prepare($conn, "SELECT seat_id FROM sessions WHERE session_id = ?");
     if (!$stmt) {
-        echo "Prepare failed: " . mysqli_error($conn);
+        echo "Échec de la préparation : " . mysqli_error($conn);
         exit;
     }
     mysqli_stmt_bind_param($stmt, "i", $session_id);
@@ -18,14 +18,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     mysqli_stmt_close($stmt);
 
     if ($old_seat_id == $new_seat_id) {
-        echo "Seat unchanged.";
+        echo "Siège inchangé.";
         exit;
     }
 
     // 2. Check if new seat is already occupied by an active session (end_time IS NULL)
     $stmt = mysqli_prepare($conn, "SELECT COUNT(*) FROM sessions WHERE seat_id = ? AND end_time IS NULL AND session_id != ?");
     if (!$stmt) {
-        echo "Prepare failed: " . mysqli_error($conn);
+        echo "Échec de la préparation : " . mysqli_error($conn);
         exit;
     }
     mysqli_stmt_bind_param($stmt, "ii", $new_seat_id, $session_id);
@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     mysqli_stmt_close($stmt);
 
     if ($count > 0) {
-        echo "New seat already occupied!";
+        echo "Le nouveau siège est déjà occupé !";
         exit;
     }
 
@@ -62,11 +62,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // 7. Commit transaction
         mysqli_commit($conn);
 
-        echo "Seat updated successfully.";
+        echo "Siège mis à jour avec succès.";
 
     } catch (Exception $e) {
         mysqli_rollback($conn);
-        echo "Failed to update seat: " . $e->getMessage();
+        echo "Échec de la mise à jour du siège : " . $e->getMessage();
     }
 }
 ?>

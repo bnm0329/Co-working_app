@@ -4,135 +4,13 @@
     <meta charset="utf-8">
     <title>Gestion des Abonnements</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
-    <style>
-        .export {
-  padding: 6px 14px;
-  margin: 10px 0;
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.export:hover {
-  background-color: #218838;
-}
-        body {
-            font-family: 'Roboto', sans-serif;
-            background: #f5f5f5;
-            margin: 0;
-            padding: 20px;
-            color: #333;
-        }
-        h1 {
-            text-align: center;
-            color: #2c3e50;
-        }
-        .tabs {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 20px;
-        }
-        .tabs button {
-            background: #3498db;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            margin: 0 5px;
-            cursor: pointer;
-            font-size: 16px;
-            border-radius: 4px;
-        }
-        .tabs button.active {
-            background: #2980b9;
-        }
-        .tab-content {
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            display: none;
-            margin-bottom: 20px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
-        table, th, td {
-            border: 1px solid #ccc;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background: #3498db;
-            color: #fff;
-        }
-        tr:nth-child(even) {
-            background: #f9f9f9;
-        }
-        .actions a {
-            margin-right: 10px;
-            text-decoration: none;
-            color: #3498db;
-        }
-        .actions a:hover {
-            text-decoration: underline;
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: 500;
-        }
-        input[type="text"], select {
-            width: 100%;
-            padding: 8px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        input[type="submit"] {
-            background: #3498db;
-            border: none;
-            color: #fff;
-            padding: 10px 15px;
-            cursor: pointer;
-            border-radius: 4px;
-            font-size: 16px;
-        }
-        .back-link {
-            display: inline-block;
-            margin-bottom: 20px;
-            color: #3498db;
-            text-decoration: none;
-        }
-    </style>
-    <script>
-        function showTab(tabName) {
-            var tabs = document.getElementsByClassName("tab-content");
-            for (var i = 0; i < tabs.length; i++) {
-                tabs[i].style.display = "none";
-            }
-            document.getElementById(tabName).style.display = "block";
-            
-            var buttons = document.querySelectorAll(".tabs button");
-            buttons.forEach(function(btn) {
-                btn.classList.remove("active");
-            });
-            document.getElementById(tabName + "-btn").classList.add("active");
-        }
-        window.onload = function() {
-            showTab("subscribers");
-        }
-    </script>
+    <link rel="stylesheet" href="../views/assets/css/admin_subscribers_view.css">
+<script src="../views/assets/js/admin_subscribers_view.js"></script>
 </head>
+
 <body>
 <h1>Gestion des Abonnements</h1>
-<center><a class="back-link" href="index.php">← Retour au Dashboard</a></center>
+<center><a class="back-link" href="index">← Retour au Dashboard</a></center>
 
 <div class="tabs">
     <button id="subscribers-btn" onclick="showTab('subscribers')">Informations des abonnés</button>
@@ -140,7 +18,7 @@
 </div>
 <div id="subscribers" class="tab-content">
     <h2>Informations des abonnés et progression</h2>
-    <button onclick="exportTableToCSV('Subscription_historique.csv')" class="export">Export to CSV</button>
+    <button onclick="exportTableToCSV('Subscription_historique.csv')" class="export">Exporter en CSV</button>
     <table>
         <tr>
             <th>Nom complet</th>
@@ -173,7 +51,7 @@
             $used_blocks = floor(($percentage / 100) * $blocks);
             $empty_blocks = $blocks - $used_blocks;
             if ($expired) {
-                $bar = str_repeat("🟥", $blocks) . " Expired";
+                $bar = str_repeat("🟥", $blocks) . " Expiré";
             } else {
                 if ($percentage < 70) {
                     $color = "🟩";
@@ -199,45 +77,13 @@
                     <td>" . htmlspecialchars($sub['subscription_type']) . "</td>
                     <td>$progressBar</td>
                     <td class='actions'>
-                        <a href='update_subscription.php?user_id=" . $sub['user_id'] . "'>Mettre à jour</a>
+                        <a href='update_subscription?user_id=" . $sub['user_id'] . "'>Mettre à jour</a>
                     </td>
                   </tr>";
         }
         ?>
     </table>
-    <style>
-.pagination {
-  margin-top: 20px;
-  text-align: left;        /* Align links to the left */
-  font-family: Arial, sans-serif;
-}
 
-.pagination a {
-  display: inline-block;
-  margin-right: 10px;
-  padding: 6px 12px;
-  color: #007BFF;
-  text-decoration: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  transition: background-color 0.2s ease;
-}
-
-.pagination a:hover {
-  background-color: #e9ecef;
-  border-color: #007BFF;
-}
-
-.pagination a.current,
-.pagination a[style*="font-weight:bold"] {
-  font-weight: bold;
-  color: #495057;
-  border-color: #495057;
-  background-color: #f0f0f0;
-  cursor: default;
-  pointer-events: none; /* Disable click on current page */
-}
-</style>
 
 <div class="pagination">
     <?php if ($page > 1): ?>
@@ -259,23 +105,89 @@
 
    <div id="create" class="tab-content">
     <h2>Créer un Abonnement</h2>
-    <form action="subscribers.php" method="post">
+    <form action="subscribers" method="post">
         <div class="form-group">
-            <label>Sélectionnez un utilisateur sans abonnement :</label>
-            <select name="user_id" id="userSelect">
-                <option value="">Sélectionnez</option>
-                <?php
-                $noSubQuery = "SELECT * FROM users WHERE subscription_type = 'none'";
-                $noSubResult = $conn->query($noSubQuery);
-                if ($noSubResult) {
-                    while ($user = $noSubResult->fetch_assoc()) {
-                        $fullName = htmlspecialchars($user['first_name'] . " " . $user['last_name']);
-                        echo "<option value='" . $user['user_id'] . "'>$fullName</option>";
-                    }
-                }
-                ?>
-            </select>
-        </div>
+    <label for="userSearch">Rechercher un utilisateur sans abonnement :</label>
+    <input type="text" id="userSearch" name="user_display" list="userList" class="form-control" placeholder="Nom d'utilisateur..." oninput="syncUserId()">
+    <datalist id="userList">
+        <?php
+        $noSubQuery = "SELECT * FROM users WHERE subscription_type = 'none'";
+        $noSubResult = $conn->query($noSubQuery);
+        $userMap = []; // For mapping display name to user_id (in JS)
+        if ($noSubResult) {
+            while ($user = $noSubResult->fetch_assoc()) {
+                $display = htmlspecialchars($user['username'] . "  " . $user['first_name'] . " " . $user['last_name']);
+                echo "<option value=\"$display\">";
+                $userMap[$display] = $user['user_id'];
+            }
+        }
+        ?>
+    </datalist>
+    <input type="hidden" name="user_id" id="user_id"> <!-- this will hold the actual ID -->
+</div>
+
+<script>
+    // JavaScript to map name to user_id
+    const userMap = <?php echo json_encode($userMap); ?>;
+
+    function syncUserId() {
+        const input = document.getElementById('userSearch').value;
+        const userIdField = document.getElementById('user_id');
+        userIdField.value = userMap[input] || '';
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+        const userSelect = document.getElementById('userSelect');
+        const inputsToToggle = document.querySelectorAll('.disable-if-user-selected');
+
+        function toggleInputs() {
+            const isUserSelected = userSelect && userSelect.value !== '';
+            inputsToToggle.forEach(input => {
+                input.disabled = isUserSelected;
+            });
+        }
+
+        // Initialize on page load
+        toggleInputs();
+
+        // Listen for changes
+        if (userSelect) {
+            userSelect.addEventListener('change', toggleInputs);
+        }
+    });
+    function downloadCSV(csv, filename) {
+        const csvFile = new Blob([csv], { type: "text/csv" });
+        const downloadLink = document.createElement("a");
+
+        downloadLink.download = filename;
+        downloadLink.href = window.URL.createObjectURL(csvFile);
+        downloadLink.style.display = "none";
+
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        document.body.removeChild(downloadLink);
+    }
+
+    function exportTableToCSV(filename) {
+        const rows = document.querySelectorAll("table tr");
+        let csv = [];
+
+        rows.forEach(row => {
+            const cols = row.querySelectorAll("td, th");
+            const rowData = [];
+
+            cols.forEach(col => {
+                // Escape double quotes
+                const data = col.innerText.replace(/"/g, '""');
+                rowData.push(`"${data}"`);
+            });
+
+            csv.push(rowData.join(","));
+        });
+
+        downloadCSV(csv.join("\n"), filename);
+    }
+</script>
+
 
         <div class="form-group">
             <label>Prénom :</label>
@@ -321,57 +233,7 @@
     </form>
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const userSelect = document.getElementById('userSelect');
-    const inputsToToggle = document.querySelectorAll('.disable-if-user-selected');
 
-    function toggleInputs() {
-        const isUserSelected = userSelect.value !== '';
-        inputsToToggle.forEach(input => {
-            input.disabled = isUserSelected;
-        });
-    }
-
-    // Initialize on page load
-    toggleInputs();
-
-    // Listen for changes
-    userSelect.addEventListener('change', toggleInputs);
-});
-function downloadCSV(csv, filename) {
-    const csvFile = new Blob([csv], { type: "text/csv" });
-    const downloadLink = document.createElement("a");
-
-    downloadLink.download = filename;
-    downloadLink.href = window.URL.createObjectURL(csvFile);
-    downloadLink.style.display = "none";
-
-    document.body.appendChild(downloadLink);
-    downloadLink.click();
-    document.body.removeChild(downloadLink);
-}
-
-function exportTableToCSV(filename) {
-    const rows = document.querySelectorAll("table tr");
-    let csv = [];
-
-    rows.forEach(row => {
-        const cols = row.querySelectorAll("td, th");
-        const rowData = [];
-
-        cols.forEach(col => {
-            // Escape double quotes
-            const data = col.innerText.replace(/"/g, '""');
-            rowData.push(`"${data}"`);
-        });
-
-        csv.push(rowData.join(","));
-    });
-
-    downloadCSV(csv.join("\n"), filename);
-}
-</script>
  
 </body>
 </html>

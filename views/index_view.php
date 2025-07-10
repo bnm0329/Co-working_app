@@ -5,42 +5,8 @@
     <meta charset="UTF-8">
     <title>Co-Working Space Access</title>
     <link rel="stylesheet" href="./views/assets/css/main.css">
-    <style>
-      .alert {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    border-color:red;
-    padding: 12px;
-    margin-top: 15px;
-    text-align: center;
-    color: #333;
-    font-weight: bold;
-    border-radius: 8px;
-}
-
-    .buttonS { padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; margin: 5px; }</style>
-    <script>
-      function showSection(id) {
-        ['section2', 'pricingSection', 'section3'].forEach(s => document.getElementById(s).style.display = s === id ? 'block' : 'none');
-      }
-      window.onload = function() {
-        showSection('section2');
-        const status = document.getElementById("statusMessage");
-        if (status) setTimeout(() => status.style.display = 'none', 5000);
-      };
-    </script>
-    <script>
-document.addEventListener('DOMContentLoaded', function () {
-    const alertBox = document.getElementById('statusAlert');
-    if (alertBox) {
-        setTimeout(() => {
-            alertBox.style.display = 'none';
-        }, 10000);
-    }
-});
-</script>
-
-    
+    <link rel="stylesheet" href="views/assets/css/index_view.css">
+    <script src="views/assets/js/index_view.js"></script>
 </head>
 <body>
 <div class="logo-container">
@@ -123,10 +89,10 @@ document.addEventListener('DOMContentLoaded', function () {
     <!-- Section 3 -->
     <div id="section3" class="section" style="display:none;">
         <h1>Bienvenue chez CoVilla 🚀</h1>
-        <button class="button" onclick="window.location.href='dashboard.php'">Check-in</button>
+        <button class="button" onclick="window.location.href='dashboard'">Check-in</button>
         <div id="returningUserForm" class="form-container">
             <h2>Ouvrir Mon Espace</h2>
-            <form action="client_space.php" method="post">
+            <form action="client_space" method="post">
                 <label>Entrez votre nom d'utilisateur :</label>
                 <input type="text" name="username" required>
                 <input type="submit" value="Login">
@@ -139,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function () {
   let clickCount = 0;
   const btn = document.getElementById('continueBtn');
   btn.addEventListener('click', function() {
-    if (++clickCount >= 2) window.location.href = 'dashboard.php';
+    if (++clickCount >= 2) window.location.href = 'dashboard';
   });
 })();
 </script>

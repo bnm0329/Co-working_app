@@ -1,6 +1,8 @@
 <?php
-ini_set('session.cookie_lifetime', 0);
-session_start();
+if (session_status() === PHP_SESSION_NONE) {
+    ini_set('session.cookie_lifetime', 0);
+    session_start();
+}
 date_default_timezone_set('Africa/Tunis');
 
 // List of pages allowed even if license is missing or invalid
@@ -45,10 +47,10 @@ $telegramBotToken = "";
 $telegramChatId   = "";
 
 // ✅ MySQL Database Connection
-$servername = "";
-$username   = "";
+$servername = "localhost";
+$username   = "root";
 $password   = "";
-$dbname     = "";
+$dbname     = "bd1s";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
@@ -56,7 +58,7 @@ if ($conn->connect_error) {
 }
 
 $smtp_host = "";           // Your SMTP server (e.g. smtp.gmail.com)
-$smtp_port = ;                          // Port (587 for TLS, 465 for SSL)
+$smtp_port = 587;                          // Port (587 for TLS, 465 for SSL)
 $smtp_username = "";         // SMTP login
 $smtp_password = "";           // SMTP password or app password
 $smtp_from_email = "";       // Sender email

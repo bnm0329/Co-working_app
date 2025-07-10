@@ -110,6 +110,6 @@ $stmt->bind_param("sssssssss", $first_name, $last_name, $phone_number, $email, $
         $stmt->close();
     }
 
-    header("Location: subscribers.php");
+    header("Location: subscribers");
     exit;
 }

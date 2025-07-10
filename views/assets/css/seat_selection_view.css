@@ -1,0 +1,37 @@
+body {
+    background-image: url('../images/your-imageS.png');
+    background-repeat: no-repeat;
+}
+        .seat span {
+            display: none;
+        }
+        .available { background-color: green !important; }
+        .occupied { background-color: red !important; }
+
+        #customAlert {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(247, 16, 16, 0.9);
+            color: #fff;
+            padding: 15px 25px;
+            border-radius: 8px;
+            display: none;
+            opacity: 0;
+            font-size: 16px;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        body { font-size: 1rem; }
+        @media (min-width: 1200px) { body { font-size: 1.125rem; } }
+        @media (max-width: 600px)  { body { font-size: 0.875rem; } }
+
+        .img, .dfe-d, .dfe-d-2, .dfe-d-3, .dfe-d-4, .dfe-d-5,
+        .dfe-d-6, .dfe-d-7, .dfe-d-8, .dfe-d-9, .dfe-d-10,
+        .dfe-d-11, .dfe-d-14, .dfe-d-13, .dfe-d-15, .dfe-d-16,
+        .dfe-d-17, .dfe-d-18, .dfe-d-19, .dfe-d-20, .dfe-d-21,
+        .dfe-d-22, .dfe-d-23, .dfe-d-24, .dfe-d-25, .dfe-d-26, .dfe-d-27 {
+            pointer-events: none;
+        }

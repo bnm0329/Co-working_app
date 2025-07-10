@@ -13,7 +13,7 @@
     <h1>Vous êtes déjà inscrit !</h1>
     <p>Nom d'utilisateur : <strong style="color:red; font-size:18px;"><?= htmlspecialchars($existing_username) ?></strong></p>
     <p>Email : <strong><?= htmlspecialchars($existing_email) ?></strong></p>
-    <form action="seat_selection.php" method="get">
+    <form action="seat_selection" method="get">
         <input type="hidden" name="username" value="<?= htmlspecialchars($existing_username) ?>">
         <input class="continue-button" type="submit" value="Continuer vers la sélection des sièges">
     </form>
